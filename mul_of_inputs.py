@@ -11,5 +11,11 @@ def first_three_multiples(num):
     c = num * 3
     print(c)
     return(c)
-    
-print(first_three_multiples(2))
+
+# Uncomment these function calls to test your first_three_multiples function:   
+first_three_multiples(2)
+# should print 2, 4, 6, and return 6
+first_three_multiples(10)
+# should print 10, 20, 30, and return 30
+first_three_multiples(0)
+# should print 0, 0, 0, and return 0
