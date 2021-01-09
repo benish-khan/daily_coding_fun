@@ -4,9 +4,9 @@
 # Return the tip amount
 
 def tip(total, percentage):
-    cost = total * percentage
-    tip = cost / 100.0 
-    return tip 
+    tip_amount = (total * percentage) / 100
+
+    return tip_amount 
 
 # should print 2.5
 print(tip(10, 25))
