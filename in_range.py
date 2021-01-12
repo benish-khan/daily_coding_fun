@@ -14,3 +14,9 @@ print(in_range(10, 10, 10))
 # should print True
 print(in_range(5, 10, 20))
 # should print False
+
+# another way to implement this would be 
+def in_range_two(num, lower, upper):
+  if(num >= lower and num <= upper):
+    return True
+  return False
