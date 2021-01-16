@@ -63,3 +63,37 @@ def twice_as_large(num1, num2):
 # should print False
 #print(twice_as_large(11, 5))
 # should print True
+
+# Define the function header to accept one input num
+# Calculate the remainder of the input divided by 10 (use modulus)
+# Use an if statement to check if the remainder was 0.
+#  If the remainder was 0, return True, otherwise, return False
+
+# Create a function called divisible_by_ten() that has one parameter named num.
+
+# The function should return True if num is divisible by 10, and False otherwise. 
+# Consider using modulo (%) to check for divisibility.
+
+def divisible_by_ten(num):
+	if num % 10 == 0:
+		return True
+	else:
+		return False
+
+# Uncomment these function calls to test your divisible_by_ten function:
+#print(divisible_by_ten(20))
+# should print True
+#print(divisible_by_ten(25))
+# should print False
+
+
+
+
+
+
+
+
+
+
+
+
