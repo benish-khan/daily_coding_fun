@@ -3,7 +3,7 @@ import random
 name = "BB"
 
 # question you’d like to ask 
-question = ["Am I cool or what?"]
+question = ("Am I cool or what?")
 
 # store the answer of the Magic 8-Ball in this variable
 answer = ""
@@ -37,3 +37,5 @@ else:
 
 print(name +  " asks: " + question)
 print("Magic 8-Ball's answer: " +  answer)
+
+
