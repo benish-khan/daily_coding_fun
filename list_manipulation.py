@@ -1,3 +1,4 @@
+#example of lists manipulation. 
 names = ['Jenny', 'Alexus', 'Sam', 'Grace']
 dogs_names = ['Elphonse', 'Dr. Doggy DDS', 'Carter', 'Ralph']
 
