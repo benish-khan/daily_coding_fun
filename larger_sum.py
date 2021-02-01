@@ -32,3 +32,13 @@ def over_nine_thousand(lst):
 #print(over_nine_thousand([8000, 900, 120, 5000])) #expecting 9020
 #print(over_nine_thousand([])) #expecting 0
 #print(over_nine_thousand([8000, 120])) expecting 8120
+
+def max_num(nums):
+  maximum = nums[0]
+  for number in nums:
+    if number > maximum:
+      maximum = number
+  return maximum 
+
+#Uncomment the line below when your function is done
+print(max_num([50, -10, 0, 75, 20]))
