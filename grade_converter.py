@@ -32,3 +32,5 @@ def applicant_selector(gpa, ps_score, ec_count):
     return "This applicant should be given an in-person interview."
   else:
     return "This applicant should be rejected."
+
+  #Update this file with new functions to add to this functionality. 
