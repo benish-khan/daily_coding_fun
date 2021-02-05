@@ -3,7 +3,7 @@ import random
 name = "BB"
 
 # question you’d like to ask 
-question = ("Am I cool or what?")
+question = ("Will covid be over soon?????")
 
 # store the answer of the Magic 8-Ball in this variable
 answer = ""
@@ -23,7 +23,7 @@ elif random_number == 3:
 elif random_number == 4:
   answer = "Reply hazy, try again."
 elif random_number == 5:
-  answer = "Ask again later."
+  answer = "Ask again later but not too much later hehe."
 elif random_number == 6:
   answer = "Better not tell you now."
 elif random_number == 7:
