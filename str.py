@@ -22,4 +22,19 @@ for c in str:
     rRrR
     """
 
+first_name = "Reiko"
+last_name = "Matsuki"
+
+def password_generator(first_name, last_name):
+  for name in first_name:
+    length_first = len(first_name)
+    last_3_char_first = first_name[length_first-3:]
+  for name in last_name:
+    length_last = len(last_name)
+    last_3_char_last = last_name[length_last-3:]
+  return last_3_char_first + last_3_char_last
+
+new_pswd = print(password_generator(first_name, last_name))
+
+
     
