@@ -36,5 +36,21 @@ def password_generator(first_name, last_name):
 
 new_pswd = print(password_generator(first_name, last_name))
 
+make_upper = 'make upper'.upper()
+print(make_upper)
 
-    
+make_lower = 'maKA LOWER'.lower()
+print(make_lower)
+
+make_title = 'make title'.title()
+print(make_title)
+
+make_split = 'make title split'.split()
+print(make_split)
+
+make_join = ' '.join("Hello", "world!")
+print(make_join)
+
+make_replace = 'hello world'.replace('h', 'j')
+print(make_replace)
+
