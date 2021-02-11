@@ -11,3 +11,14 @@ def username_generator(first_name, last_name):
   return user_name 
 test_1 = username_generator("abe", "simpson")
 print(test_1) 
+
+
+
+poem_title = "spring storm"
+poem_author = "William Carlos Williams"
+
+poem_title_fixed = poem_title.title()
+print(poem_title_fixed)
+
+poem_author_fixed = poem_author.upper()
+print(poem_author_fixed)
