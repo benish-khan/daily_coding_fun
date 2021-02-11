@@ -54,3 +54,4 @@ print(make_join)
 make_replace = 'hello world'.replace('h', 'j')
 print(make_replace)
 
+https://gist.github.com/00a90a5ef34c649cc291c21eeed1b4e2
